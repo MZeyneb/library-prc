@@ -1,0 +1,38 @@
+.goods{
+    margin-top: 80px;
+    .inp{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        input{
+            width: 600px;
+            font-size: 18px;
+            outline: none;
+            border: none;
+            border-bottom: 1px solid gray;
+        }
+    }
+    .products{
+        // display: flex;
+        // justify-content: space-between;
+        // flex-wrap: wrap;
+        // gap: 30px;
+        .product{
+            // width: 30%;
+            transition: 0.3s;
+            background-color: white;
+            &:hover{
+                scale: 1.02;
+                cursor: pointer;
+            }
+            .imge{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+            
+        }
+    }
+}
